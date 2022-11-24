@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ec-bzu-club/static/css/main.26c2423b.css",
+    "main.js": "/ec-bzu-club/static/js/main.6af37ae5.js",
+    "static/media/logo.png": "/ec-bzu-club/static/media/logo.7b47ceb48e5c7d0317bb.png",
+    "index.html": "/ec-bzu-club/index.html",
+    "main.26c2423b.css.map": "/ec-bzu-club/static/css/main.26c2423b.css.map",
+    "main.6af37ae5.js.map": "/ec-bzu-club/static/js/main.6af37ae5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26c2423b.css",
+    "static/js/main.6af37ae5.js"
+  ]
+}

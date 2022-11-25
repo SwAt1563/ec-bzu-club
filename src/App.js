@@ -12,7 +12,7 @@ import { Home } from "./Pages/index";
 const App = () => {
   return (
     <>
-      <Router>
+      <Router basename={"/ec-bzu-club"}>
         <Header />
         <Container>
           <Routes>

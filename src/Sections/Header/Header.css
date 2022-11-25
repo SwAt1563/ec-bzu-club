@@ -1,0 +1,16 @@
+.main-navbar {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  min-height: 100px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler:focus {
+  border: 2px solid white;
+}

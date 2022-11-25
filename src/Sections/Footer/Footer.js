@@ -1,7 +1,25 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-  return <></>;
+  return (
+    <>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <p>
+                حقوق الطبع والنشر محفوظة
+                <Link to="/"> لنادي الحاسوب والكهرباء </Link>
+                لسنة 2023
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </>
+  );
 };
 
 export default Footer;

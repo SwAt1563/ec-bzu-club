@@ -6,7 +6,12 @@ const Video = ({ autoPlay, muted, src, title }) => {
                     {title && (
                         <h4 className="text-light text-center">{title}</h4>
                     )}
-                    <video className="pt-4 pb-5" autoPlay={autoPlay}>
+                    <video
+                        className="pt-4 pb-5"
+                        autoPlay={autoPlay}
+                        muted={false}
+                        controls
+                    >
                         <source src={src} type="video/mp4" />
                     </video>
                 </div>

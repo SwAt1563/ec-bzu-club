@@ -1,9 +1,10 @@
 .photo img {
   height: 400px;
   width: 400px;
+  border-radius: 15%;
+  border: 5px solid var(--color-primary);
 }
 
 .status {
   color: var(--color-primary);
 }
-

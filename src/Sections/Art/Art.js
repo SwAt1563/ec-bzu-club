@@ -31,7 +31,7 @@ const Art = () => {
 
   return (
     <>
-      <div className="video-container" ref={ref}>
+      <div className="video-container text-center" ref={ref}>
         <BsFillPlayCircleFill id="play" className="" />
         <video className="" id="video_id">
           <source src={video} type="video/mp4" />

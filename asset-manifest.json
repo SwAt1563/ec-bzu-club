@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/ec-bzu-club/static/css/main.497b0d33.css",
-    "main.js": "/ec-bzu-club/static/js/main.06149aeb.js",
+    "main.css": "/ec-bzu-club/static/css/main.dbf0ccee.css",
+    "main.js": "/ec-bzu-club/static/js/main.d400aa8b.js",
     "static/media/highway-loop.mp4": "/ec-bzu-club/static/media/highway-loop.83b1293c7ccb152d1e84.mp4",
-    "static/media/timer.mp4": "/ec-bzu-club/static/media/timer.59e6d6113c697c723636.mp4",
+    "static/media/t4.jpg": "/ec-bzu-club/static/media/t4.6b11685e44f6d69ed527.jpg",
+    "static/media/t2.jpg": "/ec-bzu-club/static/media/t2.07f5b3bb25e3ae760605.jpg",
+    "static/media/t3.jpg": "/ec-bzu-club/static/media/t3.d533269abc30c82d3a1e.jpg",
+    "static/media/t5.jpg": "/ec-bzu-club/static/media/t5.0e3dcabda2d8f2b886fa.jpg",
+    "static/media/t1.jpg": "/ec-bzu-club/static/media/t1.2aeb1632d3a002b7d1f8.jpg",
     "index.html": "/ec-bzu-club/index.html",
-    "main.497b0d33.css.map": "/ec-bzu-club/static/css/main.497b0d33.css.map",
-    "main.06149aeb.js.map": "/ec-bzu-club/static/js/main.06149aeb.js.map"
+    "main.dbf0ccee.css.map": "/ec-bzu-club/static/css/main.dbf0ccee.css.map",
+    "main.d400aa8b.js.map": "/ec-bzu-club/static/js/main.d400aa8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.497b0d33.css",
-    "static/js/main.06149aeb.js"
+    "static/css/main.dbf0ccee.css",
+    "static/js/main.d400aa8b.js"
   ]
 }

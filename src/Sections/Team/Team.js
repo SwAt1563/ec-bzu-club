@@ -19,7 +19,9 @@ const Team = () => {
     <>
       <div className="team p-5">
         <div className="container">
-          <h4 className="text-center">مرشحو نادي هندسة الحاسوب والكهرباء</h4>
+          <h4 className="text-center">
+            مرشحو نادي الهندسة الكهربائية وهندسة الحاسوب 2022 \ 2023
+          </h4>
           <hr />
           <div className="members">{members}</div>
         </div>

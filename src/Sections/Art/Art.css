@@ -3,6 +3,10 @@
   max-height: 100%;
 }
 
+.video-container {
+  height: calc(100vh - 75px - 25px);
+}
+
 .bg2 {
   background-color: var(--color-dark);
 }

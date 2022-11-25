@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
               <p>
-                حقوق الطبع والنشر محفوظة
-                <Link to="/"> لنادي الحاسوب والكهرباء </Link>
+                حقوق الطبع والنشر محفوظة ل
+                <Link to="/">نادي الحاسوب والكهرباء </Link>
                 لسنة 2023
                 <br />
               </p>

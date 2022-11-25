@@ -1,25 +1,41 @@
 import "./Art.css";
 
-import timer from "../../assets/timer.mp4";
-import video from "../../assets/highway-loop.mp4";
+import video from "../../assets/viedo/highway-loop.mp4";
+import { BsFillPlayCircleFill } from "react-icons/bs";
+import { useRef, useEffect } from "react";
+
 const Art = () => {
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const handleClick = (event) => {
+      const pbtn = document.getElementById("play");
+      const viedo_cons = document.getElementById("video_id");
+      if (viedo_cons.paused) {
+        pbtn.classList.add("hidden");
+        viedo_cons.play();
+      } else {
+        pbtn.classList.remove("hidden");
+        viedo_cons.pause();
+      }
+    };
+
+    const element = ref.current;
+
+    element.addEventListener("click", handleClick);
+
+    return () => {
+      element.removeEventListener("click", handleClick);
+    };
+  }, []);
+
   return (
     <>
-      <div className="container">
-        <div className="video-container">
-          <video className="mb-5" autoplay="true" muted>
-            <source src={timer} type="video/mp4" />
-          </video>
-        </div>
-      </div>
-
-      <div className=" container">
-        <h4 className="text-light text-center">الدعاية الأنتخابية</h4>
-        <div className="bg2 video-container">
-          <video controls className="p-5">
-            <source src={video} type="video/mp4" />
-          </video>
-        </div>
+      <div className="video-container" ref={ref}>
+        <BsFillPlayCircleFill id="play" className="" />
+        <video className="" id="video_id">
+          <source src={video} type="video/mp4" />
+        </video>
       </div>
     </>
   );

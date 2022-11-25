@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg sticky-top main-navbar">
+      <nav className="navbar navbar-expand-lg main-navbar">
         <div className="container">
-          <Link className="navbar-brand text-light " to="/">
+          <Link className="navbar-brand hover-white" to="/">
             نادي هندسة الحاسوب والكهرباء
           </Link>
 
@@ -25,10 +25,10 @@ const Header = () => {
           >
             <FaAlignJustify className="menu-btn text-light" />
           </button>
-          <div className="collapse navbar-collapse" id="nav">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+          <div className="collapse navbar-collapse flex-row-reverse" id="nav">
+            <ul className="navbar-nav mb-2 mb-lg-0">
               <NavItem link="/" active="true">
-                الصفحة الأعلانية
+                الصفحة الإعلانية
               </NavItem>
             </ul>
           </div>

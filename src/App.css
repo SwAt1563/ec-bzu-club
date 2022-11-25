@@ -15,12 +15,12 @@
   --font-weight-normal: 400;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap");
 
 body {
   background-color: var(--color-bg-body);
-  font-family: 'Cairo', sans-serif;
-
+  font-family: "Cairo", sans-serif;
+  color: var(--color-light);
 }
 
 ul {

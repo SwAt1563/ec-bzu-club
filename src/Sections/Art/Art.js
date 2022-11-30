@@ -1,6 +1,6 @@
 import "./Art.css";
 
-import video from "../../assets/viedo/highway-loop.mp4";
+import video from "../../assets/viedo/ads.mp4";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 import { useRef, useEffect } from "react";
 

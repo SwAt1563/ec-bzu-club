@@ -28,7 +28,7 @@ const Header = () => {
           <div className="collapse navbar-collapse flex-row-reverse" id="nav">
             <ul className="navbar-nav mb-2 mb-lg-0">
               <NavItem link="/" active="true">
-                الصفحة الإعلانية
+                الصفحة الإنتخابية
               </NavItem>
             </ul>
           </div>

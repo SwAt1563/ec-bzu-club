@@ -2,6 +2,8 @@
   background-color: var(--color-dark);
   color: var(--color-light);
   min-height: 75px;
+
+  /* z-index: 1; */
 }
 
 .navbar-toggler {

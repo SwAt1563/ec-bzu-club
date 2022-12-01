@@ -1,7 +1,6 @@
 .video-container {
   position: relative;
   background-color: var(--color-dark);
-
 }
 
 .video-container #play {
@@ -17,8 +16,6 @@
   max-width: 100%;
   max-height: 100%;
   height: calc(100vh - 75px);
-
-
 }
 
 .bg2 {
@@ -27,4 +24,10 @@
 
 .hidden {
   display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .video-container {
+    height: 50vh;
+  }
 }

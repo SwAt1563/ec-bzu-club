@@ -1,7 +1,8 @@
 import "./Art.css";
 
 import video from "../../assets/viedo/ads.mp4";
-import thumbnail from "../../assets/viedo/team.jpg";
+import thumbnail_ads from "../../assets/viedo/ads.jpg";
+import thumbnail_sktsh from "../../assets/viedo/sktsh.jpg";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 import { useRef, useEffect } from "react";
 
@@ -34,7 +35,7 @@ const Art = () => {
     <>
       <div className="video-container text-center" ref={ref}>
         <BsFillPlayCircleFill id="play" className="" />
-        <video className="" id="video_id" poster={thumbnail}>
+        <video className="" id="video_id" poster={thumbnail_ads}>
           <source src={video} type="video/mp4" />
         </video>
       </div>

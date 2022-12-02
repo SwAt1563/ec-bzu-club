@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ec-bzu-club/static/css/main.b94bb2f3.css",
-    "main.js": "/ec-bzu-club/static/js/main.dfde126b.js",
+    "main.js": "/ec-bzu-club/static/js/main.850382db.js",
     "static/media/sktsh.mp4": "/ec-bzu-club/static/media/sktsh.46a704a0982a3630a935.mp4",
     "static/media/ads.mp4": "/ec-bzu-club/static/media/ads.af7470b9d3190d5c6a94.mp4",
     "static/media/ads.jpg": "/ec-bzu-club/static/media/ads.aa3dcbe1c162c19682d1.jpg",
@@ -13,10 +13,10 @@
     "static/media/hs.jpg": "/ec-bzu-club/static/media/hs.7841ba78c17b3f0cafc9.jpg",
     "index.html": "/ec-bzu-club/index.html",
     "main.b94bb2f3.css.map": "/ec-bzu-club/static/css/main.b94bb2f3.css.map",
-    "main.dfde126b.js.map": "/ec-bzu-club/static/js/main.dfde126b.js.map"
+    "main.850382db.js.map": "/ec-bzu-club/static/js/main.850382db.js.map"
   },
   "entrypoints": [
     "static/css/main.b94bb2f3.css",
-    "static/js/main.dfde126b.js"
+    "static/js/main.850382db.js"
   ]
 }

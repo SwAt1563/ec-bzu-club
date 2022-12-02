@@ -1,9 +1,11 @@
 import "./Person.css";
+import Fade from 'react-reveal/Fade';
 
 const Person = (props) => {
   const side = props.index % 2 === 1 ? "row flex-row-reverse bg-2" : "row";
   return (
     <>
+    <Fade top>
       <div className="member mb-5">
         <div className="container">
           <div className={side}>
@@ -18,6 +20,7 @@ const Person = (props) => {
           </div>
         </div>
       </div>
+      </Fade>
     </>
   );
 };

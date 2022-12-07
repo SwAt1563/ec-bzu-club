@@ -9,6 +9,7 @@ import { Header, Footer } from "./Sections/index";
 
 import { Home } from "./Pages/index";
 
+
 const App = () => {
   return (
     <>

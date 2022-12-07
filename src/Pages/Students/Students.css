@@ -1,0 +1,7 @@
+.table {
+  color: var(--color-light);
+}
+
+.table iframe {
+  width: 425px;
+}

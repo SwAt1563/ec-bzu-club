@@ -1,11 +1,10 @@
 import "./Home.css";
-import { Art, Team } from "../../Sections/index";
+import { Art } from "../../Sections/index";
 
 const Home = () => {
   return (
     <>
       <Art />
-      <Team />
     </>
   );
 };

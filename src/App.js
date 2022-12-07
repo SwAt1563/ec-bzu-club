@@ -7,8 +7,7 @@ import "./App.css";
 import { Container } from "./Components/index";
 import { Header, Footer } from "./Sections/index";
 
-import { Home } from "./Pages/index";
-
+import { Home, Students } from "./Pages/index";
 
 const App = () => {
   return (
@@ -18,6 +17,7 @@ const App = () => {
         <Container>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/students" element={<Students />} />
           </Routes>
         </Container>
         <Footer />

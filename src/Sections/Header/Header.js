@@ -11,7 +11,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg main-navbar">
         <div className="container">
           <Link className="navbar-brand hover-white" to="/">
-            نادي الهندسة الكهربائية وهندسة الحاسوب
+            طلاب الهندسة الكهربائية و الحاسوب
           </Link>
 
           <button
@@ -28,8 +28,9 @@ const Header = () => {
           <div className="collapse navbar-collapse flex-row-reverse" id="nav">
             <ul className="navbar-nav mb-2 mb-lg-0">
               <NavItem link="/" active="true">
-                الصفحة الإنتخابية
+                الصفحة الرئيسية
               </NavItem>
+              <NavItem link="/students">الطلاب</NavItem>
             </ul>
           </div>
         </div>

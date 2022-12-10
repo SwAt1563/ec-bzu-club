@@ -2,6 +2,7 @@
   color: var(--color-light);
 }
 
-.table iframe {
+iframe {
   width: 425px;
+  height: 500px;
 }

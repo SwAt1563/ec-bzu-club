@@ -11,7 +11,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg main-navbar">
         <div className="container">
           <Link className="navbar-brand hover-white" to="/">
-            طلاب الهندسة الكهربائية و الحاسوب
+            طلاب تكنولوجيا المعلومات
           </Link>
 
           <button
